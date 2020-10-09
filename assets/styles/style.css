@@ -1,34 +1,87 @@
-body {
+html, body {
    font-family: 'Quicksand', sans-serif;
    margin: 0;
+   height: 100%;
+   background-color: #eeeeee;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
    padding: 0;
+   overflow: hidden;
+   background-color: #333;
 }
 
-/*kodingan untuk header*/
-header h1 {
-   text-align: center;
-   font-size: 36px;
+li {
+   float: left;
 }
 
-nav {
-   text-align: center;
-}
-
-nav a {
-   color: #000;
+li a {
+   display: block;
+   color: white;
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
-   font-size: 17px;
-}
-
-nav a.active {
-   font-weight: bold;
 }
 
 .header-opening {
-   text-align: center;
-   margin-left: 20%;
-   margin-right: 20%;
+   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../image/medan.jpg");
+
+   /* Set a specific height */
+   min-height: 700px;
+
+   /* Position and center the image to scale nicely on all screens */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
 }
 
+.header-content {
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-weight: bolder;
+}
+
+.header-title {
+   font-size: 72px;
+}
+
+.header-description {
+   font-size: 18px;
+}
+
+main {
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+#content {
+   float: left;
+   width: 65%;
+
+}
+
+.article-content img {
+   width: 100%;
+}
+
+article {
+   padding: 2%;
+   margin: 2%;
+   background-color: white;
+   border-radius: 2%;
+}
+
+aside {
+   float: right;
+   width: 23%;
+   margin-left: 2%;
+   background-color: white;
+   height: 1000px;
+}
