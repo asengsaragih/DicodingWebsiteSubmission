@@ -11,6 +11,11 @@ ul {
    padding: 0;
    overflow: hidden;
    background-color: #333;
+
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1;
 }
 
 li {
@@ -28,10 +33,8 @@ li a {
 .header-opening {
    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../image/medan.jpg");
 
-   /* Set a specific height */
    min-height: 700px;
 
-   /* Position and center the image to scale nicely on all screens */
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -80,8 +83,26 @@ article {
 
 aside {
    float: right;
-   width: 23%;
-   margin-left: 2%;
+   width: 25%;
+   margin: 2%;
    background-color: white;
-   height: 1000px;
+   border-radius: 5%;
+}
+
+.image-gallery {
+   min-width: 200px;
+}
+
+.aside-content-image {
+   max-width: 200px;
+}
+
+footer {
+   color: white;
+   padding: 5px;
+   text-align: center;
+   margin-top: -200px;
+   clear: both;
+   position: relative;
+   background-color: #333;
 }

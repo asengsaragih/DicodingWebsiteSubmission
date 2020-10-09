@@ -10,16 +10,16 @@
 
 <header>
     <nav>
-        <ul>
-            <li><a class="active" href="#Beranda">Beranda</a></li>
-            <li><a href="#Sejarah">Sejarah</a></li>
-            <li><a href="#Geografis">Geografis</a></li>
-            <li><a href="#Wisata-Kuliner">Wisata Kuliner</a></li>
-            <li><a href="#Makanan-Khas-Medan">Makanan Khas Medan</a></li>
+        <ul id="menu">
+            <li><a class="btn" href="#Beranda">Beranda</a></li>
+            <li><a class="btn" href="#Sejarah">Sejarah</a></li>
+            <li><a class="btn" href="#Geografis">Geografis</a></li>
+            <li><a class="btn" href="#Wisata-Kuliner">Wisata Kuliner</a></li>
+            <li><a class="btn" href="#Makanan-Khas-Medan">Makanan Khas Medan</a></li>
         </ul>
     </nav>
 
-    <div class="header-opening">
+    <div class="header-opening" id="Beranda">
         <div class="header-content">
             <h1 class="header-title">Kota Medan</h1>
             <p class="header-description">Kota Medan adalah ibu kota provinsi Sumatra Utara, Indonesia. Kota ini merupakan kota terbesar ketiga di
@@ -38,7 +38,7 @@
 
 <main>
     <div id="content">
-        <article class="container">
+        <article class="container"  id="Sejarah">
             <div class="article-title">
                 <h1>Sejarah</h1>
             </div>
@@ -52,7 +52,7 @@
             </div>
         </article>
 
-        <article class="container">
+        <article class="container" id="Geografis">
             <div class="article-title">
                 <h1>Geografis</h1>
             </div>
@@ -65,27 +65,74 @@
             </div>
         </article>
 
-        <article class="container">
+        <article class="container-image" id="Wisata-Kuliner">
             <div class="article-title">
-                <h1>Geografis</h1>
+                <h1>Wisata Kuliner</h1>
             </div>
-            <div class="article-content">
+            <section style="text-align: center;">
+                <img class="image-gallery" src="assets/image/wisata1.jpg" alt="Cinque Terre" width="200" height="150">
+                <img class="image-gallery" src="assets/image/wisataa2.jpg" alt="Cinque Terre" width="200" height="150">
+                <img class="image-gallery" src="assets/image/wisata3.jpg" alt="Cinque Terre" width="200" height="150">
+                <img class="image-gallery" src="assets/image/wisata4.jpg" alt="Cinque Terre" width="200" height="150">
+                <img class="image-gallery" src="assets/image/wisata5.jpg" alt="Cinque Terre" width="200" height="150">
+                <img class="image-gallery" src="assets/image/wisata6.jpg" alt="Cinque Terre" width="200" height="150">
+            </section>
 
-                <img src="assets/image/wisata1.jpg" alt="Cinque Terre" width="600" height="400">
-                <img src="assets/image/wisataa2.jpg" alt="Cinque Terre" width="600" height="400">
-                <img src="assets/image/wisata3.jpg" alt="Cinque Terre" width="600" height="400">
-                <img src="assets/image/wisata4.jpg" alt="Cinque Terre" width="600" height="400">
+            <p>Merdeka Walk, pusat jajanan 24 jam yang terletak di Lapangan Merdeka Medan dan tepat berada di seberang Balai Kota Lama Medan.</p>
+            <p>Kuliner Pagaruyung, masakan India dan Indonesia di daerah "Kampung Keling" ("Kampung Madras").</p>
+            <p>Medan Night Market by Fun Taste Street, terletak di Jalan Adam Malik Medan.</p>
+            <p>Ucok Durian, Durian Sibolang.</p>
+            <p>Restoran Tip Top, Restoran yang dibangun pada zaman kolonial Belanda, terletak di Kesawan.</p>
+            <p>Asia Mega Mas Food Court Centre. Terletak di Kompleks Asia Mega Mas Medan.</p>
+        </article>
 
+        <article class="container-image" id="Makanan-Khas-Medan">
+            <div class="article-title">
+                <h1>Makanan Khas Medan</h1>
             </div>
+            <section style="text-align: center;">
+                <img class="image-gallery" src="assets/image/mkm.png" alt="Cinque Terre" width="200" height="150">
+                <img class="image-gallery" src="assets/image/mkm2.png" alt="Cinque Terre" width="200" height="150">
+                <img class="image-gallery" src="assets/image/mkm3.png" alt="Cinque Terre" width="200" height="150">
+                <img class="image-gallery" src="assets/image/mkm4.png" alt="Cinque Terre" width="200" height="150">
+                <img class="image-gallery" src="assets/image/mkm5.png" alt="Cinque Terre" width="200" height="150">
+                <img class="image-gallery" src="assets/image/mkm6.png" alt="Cinque Terre" width="200" height="150">
+                <img class="image-gallery" src="assets/image/mkm7.png" alt="Cinque Terre" width="200" height="150">
+                <img class="image-gallery" src="assets/image/mkm8.png" alt="Cinque Terre" width="200" height="150">
+            </section>
+
+            <p>Lontong Medan</p>
+            <p>Mie Gomak</p>
+            <p>Babi Panggang Kar</p>
+            <p>Saksang</p>
+            <p>Mie Aceh Medan</p>
+            <p>Soto Medan</p>
+            <p>Daun Ubi Tumbuk</p>
+            <p>Bika Ambon</p>
+            <p>Durian</p>
+            <p>Ikan Teri Medan</p>
+            <p>Kue Ombus-ombus</p>
+            <p></p>
+
         </article>
     </div>
 
-    <aside>
+    <aside style="text-align: center">
+        <h2>Warga Kota Medan</h2>
+        <p>Seorang Pria Tangguh</p>
 
+        <img src="assets/image/diri.jpg" width="200"/>
+
+        <p>Heri Yadi</p>
+        <p>26 April 1969</p>
+        <p>Jl. Alumunium Raya No. 3 Tanjung Mulia Medan</p>
+        <p>Islam</p>
+        <p>+6285830308288</p>
     </aside>
 </main>
 
 <footer>
+    <p>Belajar Dasar Pemrograman Web &#169; 2020, Dicoding Academy</p>
 </footer>
 </body>
 </html>
